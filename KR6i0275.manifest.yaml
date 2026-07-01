@@ -1,0 +1,66 @@
+canonical_identifier: bkk:krp/KR6i0275/v1
+canonical_location: https://kanripo.org/bkk/KR6i0275/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說超日明三昧經
+  identifiers:
+    alt_id:
+    - T15n0638
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0638.xml
+    old_id: T15n0638
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0275_000.yaml, hash: 'sha256:958fce40578e57d79122d2c8757e0f206227d6f76f5f1304dabf8b0cff583901'}
+  - {seq: 1, filename: KR6i0275_001.yaml, hash: 'sha256:338f4b5d2b3c99d4e0d3495ca2b1c133cd20d3bbdc99cc7ce63643c955401b9c'}
+  - {seq: 2, filename: KR6i0275_002.yaml, hash: 'sha256:5995bd6d134e1b0ba6a4cbffef38155882c9c0c855260d8f3aad2129f66e44ce'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0275_001.markers.yaml, hash: 'sha256:fc92b98aeb7056dfef2693bc2ee6263914b6e7464eca579b3bec25a2288df9c8'}
+  - {seq: 2, role: markers, filename: assets/KR6i0275_002.markers.yaml, hash: 'sha256:e3a2fdb057bf5c31147966d91313d4521422b6e3ff06baab13ba6753101029d9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0275_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 11995
+  label: 佛說超日明三昧經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0275_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 9683
+  label: 佛說超日明三昧經卷下
+  type: juan
+  level: 1
+hash: sha256:b06f33654024ed99510bf7955ac745d70db228f7ff89c4d996fa3d7a4fb07360
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

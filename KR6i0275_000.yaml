@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0275/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說超日明三昧經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0638.xml
+    old_id: T15n0638
+hash: sha256:958fce40578e57d79122d2c8757e0f206227d6f76f5f1304dabf8b0cff583901
